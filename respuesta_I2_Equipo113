@@ -4,15 +4,15 @@ Logiudice Ignacio
 Villarreal Karen
 Dietz Juan
 
-
-a- Para actualizar el repositorio al estado actual del Fork se utilizan estos comandos:
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+Para actualizar el repositorio al estado actual del Fork se utilizan estos comandos:
 
 git fetch (link del repositorio al se quiere actulizar)
 git pull (link del repositorio al se quiere actulizar)
 git push
 
-
-b- Sí
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+Sí
 
 c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA? 
  Si, GAMMA debería hacer un fetch y un pull del repositorio de ALFA y luego push
@@ -21,3 +21,40 @@ d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quie
 el fork? 
  No, todos los diferentes commits quedan guardados.
 
+e-Realizar un listado, paso a paso, de los comandos necesarios para resolver este TP por orden de ejecucion de los mismos junto con los apellidos y nombres de los alumnos
+Punto 1- Beta, Juan Dietz:
+	(El repositorio fue creado desde github)
+	git clone https://github.com/dBadwolf/TP_SO_i2_113
+
+Punto 2- GAMMA, Karen Villarreal
+git clone  https://github.com/KarenVillarreal91/TP_SO_i2_113.git
+git status
+git add .
+git commit -m "2- GAMMA, Modificacion de archivo fork.txt"
+git push
+
+Punto 3- Alfa, Logiudice Ignacio
+git clone  https://github.com/Ignxal/TP_SO_i2_113.git
+git status
+git add .
+git commit -m "3- Alfa, Modificacion de archivo fork.txt"
+git push
+
+Punto 4- Beta, Juan Dietz
+(Creacion archivo Nuevo Dato)
+echo > NuevoDato.txt
+git add .
+git commit -m "4- Beta, Creacion archivo NuevoDato.txt"
+git push
+
+Punto 5- Karen Villareal e Ignacio Logiudice
+
+git fetch https://github.com/dBadwolf/TP_SO_i2_113
+git pull https://github.com/dBadwolf/TP_SO_i2_113
+git push
+
+Respuestas - Todo el grupo 
+(Respondo desde .txt en mi repositorio local)
+git add .
+git commit -m "Mis respuestas"
+git push
