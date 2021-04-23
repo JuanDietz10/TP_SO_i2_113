@@ -4,3 +4,12 @@ Logiudice Ignacio
 Villarreal Karen
 Dietz Juan
 
+
+a- Para actualizar el repositorio al estado actual del Fork se utilizan estos comandos:
+
+git fetch (link del repositorio al se quiere actulizar)
+git pull (link del repositorio al se quiere actulizar)
+git push
+
+
+b- Sí
