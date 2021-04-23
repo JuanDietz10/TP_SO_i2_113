@@ -13,3 +13,11 @@ git push
 
 
 b- Sí
+
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA? 
+ Si, GAMMA debería hacer un fetch y un pull del repositorio de ALFA y luego push
+
+d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
+el fork? 
+ No, todos los diferentes commits quedan guardados.
+
